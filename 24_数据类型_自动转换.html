@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 自动转换，也叫隐式转换
+        // true flase null和数值进行计算会转为数值
+        // 任意类型和字符型相加，会变为字符串
+            // 加法 + 运算
+            // 如果加法两端有一端是字符串，就会之间字符串拼接
+            // 如果都不是字符串，就会先强制转换为Number再相加
+        var a = 1 + '2'
+        console.log(a);
+        console.log(typeof a);
+
+        var b = 1 + true 
+        console.log(b);
+        console.log(typeof b);
+
+        var c 
+        var d = c + 1 
+        // 都不是字符串，结果为NaN 
+        console.log(d);
+        
+    </script>
+</body>
+</html>
